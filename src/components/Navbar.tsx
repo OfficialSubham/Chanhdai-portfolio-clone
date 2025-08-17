@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <div className="w-full fixed pt-2  z-20 h-14 border-b border-b-line/20 ">
       <div className="absolute h-px w-full bg-line/20"></div>
-      <div className="flex max-w-3xl px-2 h-full mx-auto border-r-line/20 border-l-line/20 border-r border-l justify-end items-center gap-3">
+      <div className="flex max-w-3xl px-4 h-full mx-auto justify-end items-center gap-3 relative">
+        <div className="h-full w-px bg-line/20 absolute lg:left-0 left-2"></div>
+        <div className="h-full w-px right-2 bg-line/20 absolute lg:right-0"></div>
         <div className="gap-3 hidden md:flex">
           <div className="font-bold cursor-pointer">Daifolio</div>
           <div className="text-line">Blog</div>
