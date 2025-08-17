@@ -4,8 +4,13 @@
   font-family: "Aileron";
   src: url("/fonts/ailerons/Ailerons-Typeface.otf");
 }
-
+@font-face {
+  font-family: "Futura";
+  src: url("/fonts/futura-similar-fonts/HFUNB.otf");
+}
 @theme {
   --font-aileron: "Aileron";
+  --font-futura: "Futura";
   --color-primary: #0b0b0d;
+  --color-line: #9fa0aa;
 }

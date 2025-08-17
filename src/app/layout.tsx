@@ -8,7 +8,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`font-aileron antialiased [--pattern-fg:var(--color-neutral-900)]/5 bg-primary text-white`}
+        className={`font-futura antialiased [--pattern-fg:var(--color-neutral-900)]/5 bg-primary text-white`}
       >
         {children}
       </body>
